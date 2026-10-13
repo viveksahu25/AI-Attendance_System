@@ -11,4 +11,3 @@ segno
 Pillow
 librosa
 resemblyzer
-setuptools<81
