@@ -6,7 +6,7 @@ from urllib.parse import urlencode
 
 @st.dialog("Share a class link")
 def share_subject_dialog(subject_name,subject_code):
-    app_domain = "snapclass-main.streamlit.app"
+    app_domain = "snap-aiattendance.streamlit.app"
     subject_code = subject_code.strip()
     join_url = (
         f"{app_domain}/?"
