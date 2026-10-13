@@ -43,7 +43,7 @@ def enroll_dialog():
                         subject['subject_id']
                     )
                     st.success('Successfully enrolled')
-                    st.toast(f'Enrolled {subject['name']} Successfully!')
+                    st.toast(f"Enrolled {subject['name']} Successfully!")
                     time.sleep(1)
                     st.rerun()
 
