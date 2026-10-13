@@ -1,28 +1,13 @@
 streamlit
-
-# utilitites 
-
-
-
+supabase
 numpy
 pandas
-
-# FACE REGORIZATION 
 scikit-learn
 dlib-bin
-git+https://github.com/ageitgey/face_recognition_models
+git+https://github.com/ageitgey/face_recognition_models.git
 setuptools
-
-
-supabase
 bcrypt
-
 segno
-pillow
-
-
-
+Pillow
 librosa
 resemblyzer
-
-
