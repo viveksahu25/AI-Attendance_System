@@ -87,7 +87,7 @@ def student_dashboard():
 
                     if result:
                         st.success("Successfully unenrolled!")
-                        st.toast(f'Unenrolled from{sub['name']} Successfully!')
+                        st.toast(f"Unenrolled from{sub['name']} Successfully!")
                         st.rerun()
                     else:
                         st.error("No row deleted. Check RLS or student/subject ID.")
